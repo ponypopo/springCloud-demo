@@ -1,0 +1,15 @@
+server:
+    port: 8000
+
+spring:
+    application:
+        name: service-zuul
+zuul:
+    routes:
+        rest-ws:
+            path: /api-a/**
+            #serviceId: rest-ws
+            url: http://192.168.1.201:8001/
+        shiro-auth:
+            path: /api-b/**
+            url: http://192.168.1.202:8002/

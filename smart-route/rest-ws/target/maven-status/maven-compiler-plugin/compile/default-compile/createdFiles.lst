@@ -1,0 +1,6 @@
+com\kangtuopy\controller\TestController.class
+com\kangtuopy\RestfulWebserviceApplication.class
+com\kangtuopy\TestConfig.class
+com\kangtuopy\webService\impl\WsClient.class
+com\kangtuopy\webService\impl\TestServiceImpl.class
+com\kangtuopy\webService\TestService.class
